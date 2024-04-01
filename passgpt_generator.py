@@ -9,7 +9,7 @@ Contact Information:
 
 Script Purpose:
 This script is designed to generate, manage, and optimize a dataset of passwords using a machine learning model.
-It runs indefinitely until the user initiates a graceful shutdown with Ctrl+C (or Cmd+C on Mac),
+It runs indefinitely until the user initiates a graceful shutdown with Ctrl + C,
 at which point it performs deduplication and consolidation of the password files generated during the session.
 
 Compatibility:
@@ -287,8 +287,7 @@ def banner():
     print("   - On Windows:\tpython.exe passgpt_generator.py")
     print("   - On Mac/Linux:\tpython3 passgpt_generator.py\n")
     print("STOP this script by using the command:")
-    print("   - On Windows:\tCtrl+C")
-    print("   - On Mac:\t\tCmd+C\n")
+    print("   - All OS:\tCtrl + C")
 
 def main():
     banner()
@@ -344,7 +343,7 @@ Please enter a number corresponding to your desired model:
             
             distribute_asterisks(output_dir, append_counts)
             
-            print("\nPress Ctrl+C (Cmd+C on Mac) to gracefully end execution.")
+            print("\nPress Ctrl + C to gracefully end execution.")
 
     except KeyboardInterrupt:
         print("User initiated shutdown. Performing final steps before shutting down...")
