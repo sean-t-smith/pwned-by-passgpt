@@ -2,7 +2,7 @@
 
 The presentation aims to teach a methodology and mindset for password cracking that is applicable to all types of passwords. It emphasizes that while having advanced hardware such as powerful GPUs and cloud infrastructure can enhance the process, it is not a necessity for success—most passwords can be efficiently cracked using minimal hardware. The key takeaway is that password cracking is accessible and not inherently complicated with the right knowledge. The outcome is prooving out the described methodology using the Have I Been Pwned dataset while using tried-and-true techniques and novel AI-based LLM tooling.
 
-Download the [full guide here](https://github.com/sean-t-smith/T-Mobster/blob/main/How%20to%20Build%20the%20Perfect%20Red%20Team%20Hardware%20Implant%20-%2020230311.pdf). Watch the [demo here](https://youtu.be/NUQsfHW1Nek).
+Download the [full guide here](https://github.com/sean-t-smith/T-Mobster/blob/main/How%20to%20Build%20the%20Perfect%20Red%20Team%20Hardware%20Implant%20-%2020230311.pdf). Watch the [demo here](https://youtu.be/NUQsfHW1Nek). Run the AI model using [this code](https://github.com/sean-t-smith/pwned-by-passgpt/blob/main/passgpt_generator.py).
 
 # How is this useful?
 
