@@ -287,7 +287,7 @@ def banner():
     print("   - On Windows:\tpython.exe passgpt_generator.py")
     print("   - On Mac/Linux:\tpython3 passgpt_generator.py\n")
     print("STOP this script by using the command:")
-    print("   - All OS:\tCtrl + C")
+    print("   - All OS:\tCtrl + C\n")
 
 def main():
     banner()
